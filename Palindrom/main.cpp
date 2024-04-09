@@ -5,14 +5,14 @@ using namespace std;
 void main() {
 	setlocale(LC_ALL, "Russian");
     int n;
-    cout << "Ââåäèòå ÷èñëî äëÿ ïðîâåðêè: ";  cin >> n;
+    cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ñ‡Ð¸ÑÐ»Ð¾ Ð´Ð»Ñ Ð¿Ñ€Ð¾Ð²ÐµÑ€ÐºÐ¸: ";  cin >> n;
     int check = 0;
     for (int i = n; i != 0; i /= 10) {
         check = check * 10 + i % 10;
     }
     if (check == n) {
-        cout << "×èñëî ïàëèíäðîì" << endl;
-    }else cout << "×èñëî íå ïàëèíäðîì" << endl;
+        cout << "Ð§Ð¸ÑÐ»Ð¾ Ð¿Ð°Ð»Ð¸Ð½Ð´Ñ€Ð¾Ð¼" << endl;
+    }else cout << "Ð§Ð¸ÑÐ»Ð¾ Ð½Ðµ Ð¿Ð°Ð»Ð¸Ð½Ð´Ñ€Ð¾Ð¼" << endl;
     
 	
 }
