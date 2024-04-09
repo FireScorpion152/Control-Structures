@@ -10,7 +10,7 @@ using namespace std;
 //#define RHOMBUS
 //#define PLUSMINUS
 //#define CHESS
-//#define HARDCHESS
+#define HARDCHESS
 
 void main() {
 	setlocale(LC_ALL, "Russian");
@@ -149,10 +149,8 @@ void main() {
 
 #ifdef HARDCHESS
 	cout << "Введите размер поля: "; cin >> n;
-	for (i = 0; i < n; i++) {
-		for (j = 0; j < n; j++) {
-			for (k = 0; k < n; k++) {
-				for (h = 0; h < n; h++) {
+	for (i = 0, k = 0; i < n, k < n; i++, k++) {
+		for (j = 0, h = 0; j < n, h < n; j++, h++) {
 					if ((i + k) % 2 == 0) {
 						cout << "*";
 					}
@@ -164,7 +162,6 @@ void main() {
 
 		}
 
-	}
 #endif // HARDCHESS
 
 #ifdef CHESS
@@ -191,4 +188,4 @@ void main() {
 
 
 
-}
+

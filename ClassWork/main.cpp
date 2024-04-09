@@ -23,5 +23,4 @@ TYPE_INFO("int", sizeof(int), INT_MIN, INT_MAX);*/
 	cout << delimiter << endl;
 	TYPE_INFO("double", sizeof(double), DBL_MIN, DBL_MAX);
 #endif 
-
 }

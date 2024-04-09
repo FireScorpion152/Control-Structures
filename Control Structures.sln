@@ -19,6 +19,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Geometrial", "Geometrial\Ge
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Pascal", "Pascal\Pascal.vcxproj", "{ADAE1B00-A0FD-4148-B578-3B420A5C153E}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Palindrom", "Palindrom\Palindrom.vcxproj", "{735009FC-1316-4BBF-981A-8ED4A83E7C8C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -91,6 +93,14 @@ Global
 		{ADAE1B00-A0FD-4148-B578-3B420A5C153E}.Release|x64.Build.0 = Release|x64
 		{ADAE1B00-A0FD-4148-B578-3B420A5C153E}.Release|x86.ActiveCfg = Release|Win32
 		{ADAE1B00-A0FD-4148-B578-3B420A5C153E}.Release|x86.Build.0 = Release|Win32
+		{735009FC-1316-4BBF-981A-8ED4A83E7C8C}.Debug|x64.ActiveCfg = Debug|x64
+		{735009FC-1316-4BBF-981A-8ED4A83E7C8C}.Debug|x64.Build.0 = Debug|x64
+		{735009FC-1316-4BBF-981A-8ED4A83E7C8C}.Debug|x86.ActiveCfg = Debug|Win32
+		{735009FC-1316-4BBF-981A-8ED4A83E7C8C}.Debug|x86.Build.0 = Debug|Win32
+		{735009FC-1316-4BBF-981A-8ED4A83E7C8C}.Release|x64.ActiveCfg = Release|x64
+		{735009FC-1316-4BBF-981A-8ED4A83E7C8C}.Release|x64.Build.0 = Release|x64
+		{735009FC-1316-4BBF-981A-8ED4A83E7C8C}.Release|x86.ActiveCfg = Release|Win32
+		{735009FC-1316-4BBF-981A-8ED4A83E7C8C}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
